@@ -15,21 +15,7 @@
   --card-border: rgba(0,0,0,0.03);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #0f172a;
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --text-tertiary: #475569;
-    --accent: var(--text-primary);
-    --border: #1e293b;
-    
-    --card-1: rgba(254, 240, 138, 0.05); 
-    --card-2: rgba(186, 230, 253, 0.05); 
-    --card-3: rgba(167, 243, 208, 0.05); 
-    --card-border: rgba(255,255,255,0.05);
-  }
-}
+
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
