@@ -1,0 +1,17 @@
+# Design System & Technical Guidelines
+
+1. **Aesthetics & UI**:
+   - Absolutely minimal, unstyled appearance relying heavily on system defaults.
+   - Clean, legible text using system fonts (`-apple-system`).
+   - Supports light and dark mode out-of-the-box using `prefers-color-scheme`.
+   - Single flat-color background with no noise or textures.
+   - No glassmorphism, glowing accents, or bento grids.
+   - Maximum width constrained to `650px` for optimal reading width on desktop.
+
+2. **Tech Stack**:
+   - Vanilla HTML5 and simple CSS3.
+   - NO JavaScript entirely. Interactions rely on simple `a:hover` pseudo-classes.
+   - Strictly single-page layout.
+
+3. **Animations**:
+   - NONE.
